@@ -33,7 +33,8 @@
     },
     "price": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "min": 0
     },
     "quantity": {
       "type": "integer",
@@ -60,8 +61,7 @@
     },
     "oldPrice": {
       "type": "decimal",
-      "min": 0,
-      "default": 0
+      "min": 0
     }
   }
 }
