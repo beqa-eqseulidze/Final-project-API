@@ -28,6 +28,13 @@
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "parent"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

@@ -75,6 +75,12 @@
         "videos",
         "audios"
       ]
+    },
+    "carts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cart.cart",
+      "mappedBy": "user"
     }
   }
 }
